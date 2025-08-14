@@ -1,0 +1,11 @@
+{
+    "java.project.sourcePaths": [
+        "Week5-Level3/src",
+        "Week5-Level1/src",
+        "Week2-Level1/src",
+        "APP W1",
+        "APP W2",
+        "."
+    ],
+    "java.project.referencedLibraries": []
+}
