@@ -1,33 +1,44 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class UniqueCharacter {
-    public static int[] frequency(String s) {
-        String str = s.toLowerCase();
-        int[] frequency = new int[256];
-        for (int i =0; i < str.length(); i++) {
-            char ch = str.charAt(i);
-            frequency[ch]++;
+    static Scanner input = new Scanner(System.in);
+
+    public static int lengthfinder(String s) {
+         int count = 0;
+        try {
+            while (true) {
+                s.charAt(count);
+                count++;
+            }
+        } catch (IndexOutOfBoundsException e) {
+            return count;
         }
-        return frequency;
     }
-    public static void displayUniqueCharacters(int[] frequency) {
-        System.out.println("Unique Characters:");
-        for (int i = 0; i < frequency.length; i++) {
-            if (frequency[i] == 1) {
-                char character = (char) i;
-                System.out.printf("'%s'\n", character);
+
+    public static String[] UniqCharacter(String s) {
+        String str = s.toLowerCase();
+        String[] chars = new String[lengthfinder(str)];
+        int index = 0;
+        for (int i = 0; i < str.length(); i++) {
+            String currentChar = String.valueOf(str.charAt(i));
+            if (!Arrays.asList(chars).contains(currentChar) && !Character.isAlphabetic(str.charAt(i))) {
+                chars[index] = currentChar;
+                index++;
             }
         }
+        return chars;
     }
-
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String s = input.nextLine();
-        int[] f = frequency(s);
-        displayUniqueCharacters(f);
+        String[] uniqueChars = UniqCharacter(s);
+        System.out.println("Unique Characters:");
+        for (String character : uniqueChars) {
+            if (character != null) {
+                System.out.printf("%s  ", character);
+            }
+        }
         input.close();
-
     }
 }
-
