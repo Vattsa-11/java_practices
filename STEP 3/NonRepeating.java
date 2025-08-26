@@ -11,7 +11,7 @@ public class NonRepeating {
         return frequency;
     }
     public static void displayUniqueCharacters(int[] frequency) {
-        System.out.println("Unique Characters:");
+        System.out.println("Non Repeating Characters:");
         for (int i = 0; i < frequency.length; i++) {
             if (frequency[i] == 1) {
                 char character = (char) i;
