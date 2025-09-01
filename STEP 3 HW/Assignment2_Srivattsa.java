@@ -1,6 +1,6 @@
 /**
  * Assignment 2: Online Shopping Cart System
- * Author: YourName
+ * Author: Srivattsa
  * Date: 2025-09-01
  *
  * Simple shopping cart system demonstrating OOP concepts and object relationships.
@@ -115,7 +115,7 @@ class ShoppingCart {
     }
 }
 
-public class Assignment2_YourName {
+public class Assignment2_Srivattsa {
     public static void main(String[] args) {
         // Create 10 products
         Product[] products = new Product[] {

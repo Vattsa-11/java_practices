@@ -1,6 +1,6 @@
 /**
  * Assignment 4: Student Grade Management System
- * Author: YourName
+ * Author: Srivattsa
  * Date: 2025-09-01
  *
  * Simple student grade management system demonstrating static vs instance members and data processing.
@@ -121,7 +121,7 @@ class Student {
     public static int getTotalStudents() { return totalStudents; }
 }
 
-public class Assignment4_YourName {
+public class Assignment4_Srivattsa {
     public static void main(String[] args) {
         Student.setSchoolName("Future School");
         String[] subjects = {"Math", "Science", "English"};

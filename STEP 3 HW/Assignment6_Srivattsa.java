@@ -1,6 +1,6 @@
 /**
  * Assignment 6: Employee Payroll and Attendance System
- * Author: YourName
+ * Author: Srivattsa
  * Date: 2025-09-01
  *
  * Simple employee management system demonstrating payroll, attendance, and performance tracking.
@@ -67,7 +67,7 @@ class Employee {
     public static void setCompanyName(String name) { companyName = name; }
 }
 
-public class Assignment6_YourName {
+public class Assignment6_Srivattsa {
     public static void main(String[] args) {
         Employee.setCompanyName("Tech Solutions");
     Employee e1 = new Employee("Alice", "IT", "Developer", 30000, "Full-time");

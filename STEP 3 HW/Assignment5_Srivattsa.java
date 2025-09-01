@@ -1,6 +1,6 @@
 /**
  * Assignment 5: Library Management System with Fine Calculation
- * Author: YourName
+ * Author: Srivattsa
  * Date: 2025-09-01
  *
  * Simple library management system demonstrating OOP concepts and fine calculation.
@@ -86,7 +86,7 @@ class Member {
     public static void setLibraryName(String name) { libraryName = name; }
 }
 
-public class Assignment5_YourName {
+public class Assignment5_Srivattsa {
     public static void main(String[] args) {
         Member.setLibraryName("City Library");
         Book b1 = new Book("B1", "Java Basics");

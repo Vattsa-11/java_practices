@@ -1,6 +1,6 @@
 /**
  * Assignment 1: Personal Finance Manager
- * Author: YourName
+ * Author: Srivattsa
  * Date: 2025-09-01
  *
  * Simple personal finance management system demonstrating OOP concepts.
@@ -74,7 +74,7 @@ class PersonalAccount {
     }
 }
 
-public class Assignment1_YourName {
+public class Assignment1_Srivattsa {
     public static void main(String[] args) {
         PersonalAccount.setBankName("Future Bank");
         PersonalAccount acc1 = new PersonalAccount("Alice");

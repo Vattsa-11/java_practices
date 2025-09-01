@@ -1,6 +1,6 @@
 /**
  * Assignment 7: Vehicle Fleet Management System
- * Author: YourName
+ * Author: Srivattsa
  * Date: 2025-09-01
  *
  * Simple vehicle fleet management system demonstrating inheritance and resource management.
@@ -64,7 +64,7 @@ class Driver {
     }
 }
 
-public class Assignment7_YourName {
+public class Assignment7_Srivattsa {
     public static void main(String[] args) {
         Vehicle.companyName = "FleetX";
         Car car1 = new Car("V1", "Toyota", "Corolla", 2020, 20000, "Petrol", "Available");

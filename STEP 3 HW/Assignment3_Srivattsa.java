@@ -1,6 +1,6 @@
 /**
  * Assignment 3: Hotel Reservation System
- * Author: YourName
+ * Author: Srivattsa
  * Date: 2025-09-01
  *
  * Simple hotel reservation system demonstrating OOP concepts and class interactions.
@@ -60,7 +60,7 @@ class Booking {
     public static void setHotelName(String name) { hotelName = name; }
 }
 
-public class Assignment3_YourName {
+public class Assignment3_Srivattsa {
     public static void main(String[] args) {
         Booking.setHotelName("Sunrise Hotel");
         Room[] rooms = {

@@ -1,6 +1,6 @@
 /**
  * Assignment 8: Hospital Patient Management System
- * Author: YourName
+ * Author: Srivattsa
  * Date: 2025-09-01
  *
  * Simple hospital management system demonstrating advanced object relationships and data management.
@@ -52,7 +52,7 @@ class Appointment {
     public static double getTotalRevenue() { return totalRevenue; }
 }
 
-public class Assignment8_YourName {
+public class Assignment8_Srivattsa {
     public static void main(String[] args) {
         Appointment.setHospitalName("Care Hospital");
 
