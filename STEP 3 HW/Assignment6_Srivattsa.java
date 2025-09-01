@@ -15,7 +15,7 @@ class Employee {
 
     private static String companyName = "Default Company";
     private static double totalSalaryExpense = 0.0;
-    private static int workingDaysPerMonth = 30;
+    private static int workingDaysPerMonth = 30;    
 
     public Employee(String name, String dept, String desig, double salary, String type) {
         this.empName = name;
