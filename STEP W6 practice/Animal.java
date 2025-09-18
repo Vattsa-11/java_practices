@@ -1,9 +1,11 @@
 public class Animal {
+    // Protected fields accessible to subclasses
     protected String species;
     protected String habitat;
     protected int lifespan;
     protected boolean isWildlife;
-    
+
+    // Constructor with all parameters
     public Animal(String species, String habitat, int lifespan, boolean isWildlife) {
         this.species = species;
         this.habitat = habitat;
@@ -11,73 +13,80 @@ public class Animal {
         this.isWildlife = isWildlife;
         System.out.println("Animal constructor: Creating " + species);
     }
-    
+
+    // Basic animal behaviors
     public void eat() {
         System.out.println("Animal is eating");
     }
-    
+
     public void sleep() {
         System.out.println("Animal is sleeping");
     }
-    
+
     public void move() {
         System.out.println("Animal is moving");
     }
-    
+
+    // Information method
     public String getAnimalInfo() {
         return String.format("Species: %s, Habitat: %s, Lifespan: %d years, Wildlife: %s",
                 species, habitat, lifespan, isWildlife);
     }
 }
 
+// Intermediate class extending Animal
 class Mammal extends Animal {
     protected String furColor;
     protected boolean hasWarmBlood;
     protected int gestationPeriod;
-    
+
     public Mammal(String species, String habitat, int lifespan, boolean isWildlife,
                   String furColor, int gestationPeriod) {
+        // Call parent constructor first
         super(species, habitat, lifespan, isWildlife);
         this.furColor = furColor;
         this.hasWarmBlood = true; // Always true for mammals
         this.gestationPeriod = gestationPeriod;
         System.out.println("Mammal constructor: Adding mammal traits");
     }
-    
+
     @Override
     public void move() {
-        super.move();
+        super.move(); // Call parent's move method first
         System.out.println("Mammal is walking/running");
     }
-    
+
     public void nurse() {
         System.out.println("Mammal is nursing offspring");
     }
-    
+
     public void regulateTemperature() {
         System.out.println("Maintaining body temperature");
     }
 }
 
+// Specific class extending Mammal
 class Dog extends Mammal {
     private String breed;
     private boolean isDomesticated;
-    private int loyaltyLevel;
+    private int loyaltyLevel; // 1-10 scale
     private String favoriteActivity;
-    
+
     // Constructor 1: Basic dog with minimal parameters
     public Dog(String breed) {
+        // Call parent with default values
         super("Canis lupus familiaris", "Domestic", 12, false, "Brown", 63);
         this.breed = breed;
         this.isDomesticated = true;
         this.loyaltyLevel = 7;
         this.favoriteActivity = "Playing fetch";
     }
-    
+
     // Constructor 2: Detailed dog with all parameters
     public Dog(String species, String habitat, int lifespan, boolean isWildlife,
-               String furColor, int gestationPeriod, String breed, boolean isDomesticated,
-               int loyaltyLevel, String favoriteActivity) {
+              String furColor, int gestationPeriod, String breed, boolean isDomesticated,
+              int loyaltyLevel, String favoriteActivity) {
+        // Call parent with full parameters
         super(species, habitat, lifespan, isWildlife, furColor, gestationPeriod);
         this.breed = breed;
         this.isDomesticated = isDomesticated;
@@ -85,60 +94,65 @@ class Dog extends Mammal {
         this.favoriteActivity = favoriteActivity;
         System.out.println("Dog constructor: Creating " + breed + " dog");
     }
-    
+
     // Constructor 3: Copy constructor
     public Dog(Dog source) {
         this(source.species, source.habitat, source.lifespan, source.isWildlife,
-             source.furColor, source.gestationPeriod, source.breed, source.isDomesticated,
-             source.loyaltyLevel, source.favoriteActivity);
+             source.furColor, source.gestationPeriod, source.breed, 
+             source.isDomesticated, source.loyaltyLevel, source.favoriteActivity);
     }
-    
+
     @Override
     public void eat() {
         super.eat();
         System.out.println("Dog is wagging tail while eating");
     }
-    
+
     @Override
     public void move() {
         System.out.println("Dog is running and playing");
     }
-    
+
     @Override
     public void sleep() {
         System.out.println("Dog is sleeping in doghouse");
     }
-    
+
     public void bark() {
         System.out.println("Woof! Woof!");
     }
-    
+
     public void fetch() {
         System.out.println("Dog is fetching the ball");
     }
-    
+
     public void showLoyalty() {
         System.out.println("Dog's loyalty level: " + loyaltyLevel + "/10");
     }
-    
+
     public void demonstrateInheritance() {
         System.out.println("\nDemonstrating inheritance chain:");
+        
         // Animal level methods
+        System.out.println("\nAnimal behaviors:");
         eat();
         sleep();
         move();
         System.out.println(getAnimalInfo());
         
         // Mammal level methods
+        System.out.println("\nMammal behaviors:");
         nurse();
         regulateTemperature();
         
         // Dog level methods
+        System.out.println("\nDog behaviors:");
         bark();
         fetch();
         showLoyalty();
     }
-    
+
+    // Main method to test all functionality
     public static void main(String[] args) {
         // Test constructor chaining
         System.out.println("\nCreating dog with basic constructor:");
@@ -148,7 +162,7 @@ class Dog extends Mammal {
         Dog dog2 = new Dog("Canis lupus familiaris", "Home", 15, false,
                           "Golden", 63, "Golden Retriever", true, 9, "Swimming");
         
-        System.out.println("\nCreating dog using copy constructor:");
+        System.out.println("\nCreating dog with copy constructor:");
         Dog dog3 = new Dog(dog2);
         
         // Test method overriding across levels
@@ -167,7 +181,7 @@ class Dog extends Mammal {
         System.out.println("dog1 instanceof Mammal: " + (dog1 instanceof Mammal));
         System.out.println("dog1 instanceof Animal: " + (dog1 instanceof Animal));
         
-        // Demonstrate inheritance chain
+        // Demonstrate full inheritance chain
         dog1.demonstrateInheritance();
     }
 }
