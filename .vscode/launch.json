@@ -1,0 +1,315 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ShoppingCart",
+            "request": "launch",
+            "mainClass": "ShoppingCart",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AnagramCheck",
+            "request": "launch",
+            "mainClass": "AnagramCheck",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "ArrayIndexDemo",
+            "request": "launch",
+            "mainClass": "ArrayIndexDemo",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "BMICalculator",
+            "request": "launch",
+            "mainClass": "BMICalculator",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "CalendarDisplay",
+            "request": "launch",
+            "mainClass": "CalendarDisplay",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "CardDeck",
+            "request": "launch",
+            "mainClass": "CardDeck",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "CharFrequencyNestedLoops",
+            "request": "launch",
+            "mainClass": "CharFrequencyNestedLoops",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "CharacterFrequency",
+            "request": "launch",
+            "mainClass": "CharacterFrequency",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "CheckSign",
+            "request": "launch",
+            "mainClass": "CheckSign",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "CompareStrings",
+            "request": "launch",
+            "mainClass": "CompareStrings",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "Counter",
+            "request": "launch",
+            "mainClass": "Counter",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "CounterForLoop",
+            "request": "launch",
+            "mainClass": "CounterForLoop",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "Divide",
+            "request": "launch",
+            "mainClass": "Divide",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "Factorial",
+            "request": "launch",
+            "mainClass": "Factorial",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "FactorialForLoop",
+            "request": "launch",
+            "mainClass": "FactorialForLoop",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "IllegalArgumentDemo",
+            "request": "launch",
+            "mainClass": "IllegalArgumentDemo",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "Largest",
+            "request": "launch",
+            "mainClass": "Largest",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "NaturalNumber",
+            "request": "launch",
+            "mainClass": "NaturalNumber",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "NonRepeatingChar",
+            "request": "launch",
+            "mainClass": "NonRepeatingChar",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "NullPointerExceptionDemo",
+            "request": "launch",
+            "mainClass": "NullPointerExceptionDemo",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "NumberFormatDemo",
+            "request": "launch",
+            "mainClass": "NumberFormatDemo",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "PalindromeCheck",
+            "request": "launch",
+            "mainClass": "PalindromeCheck",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "Q1",
+            "request": "launch",
+            "mainClass": "Q1",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "Q2",
+            "request": "launch",
+            "mainClass": "Q2",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "Q3",
+            "request": "launch",
+            "mainClass": "Q3",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "Q4",
+            "request": "launch",
+            "mainClass": "Q4",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "Q5",
+            "request": "launch",
+            "mainClass": "Q5",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "QuotientAndRemainder",
+            "request": "launch",
+            "mainClass": "QuotientAndRemainder",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "SmallestNumber",
+            "request": "launch",
+            "mainClass": "SmallestNumber",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "SpringSeason",
+            "request": "launch",
+            "mainClass": "SpringSeason",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "StringCharacterComparison",
+            "request": "launch",
+            "mainClass": "StringCharacterComparison",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "StringIndexDemo",
+            "request": "launch",
+            "mainClass": "StringIndexDemo",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "SubstringChecking",
+            "request": "launch",
+            "mainClass": "SubstringChecking",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "Sum",
+            "request": "launch",
+            "mainClass": "Sum",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "SumAgain",
+            "request": "launch",
+            "mainClass": "SumAgain",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "SumAndFormula",
+            "request": "launch",
+            "mainClass": "SumAndFormula",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "SumAndFormulaForLoop",
+            "request": "launch",
+            "mainClass": "SumAndFormulaForLoop",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "TextCaseConverter",
+            "request": "launch",
+            "mainClass": "TextCaseConverter",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "TextLowerCaseConverter",
+            "request": "launch",
+            "mainClass": "TextLowerCaseConverter",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "UniqueCharFrequency",
+            "request": "launch",
+            "mainClass": "UniqueCharFrequency",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "UniqueCharacters",
+            "request": "launch",
+            "mainClass": "UniqueCharacters",
+            "projectName": "java_works_3e26fe06"
+        },
+        {
+            "type": "java",
+            "name": "VotingAge",
+            "request": "launch",
+            "mainClass": "VotingAge",
+            "projectName": "java_works_3e26fe06"
+        }
+    ]
+}
